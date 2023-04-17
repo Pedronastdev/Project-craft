@@ -1,0 +1,450 @@
+@font-face {
+  font-family: "robotobold";
+  src: url("font/roboto-bold.woff2") format("woff2"),
+    url("font/roboto-bold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "robotoregular";
+  src: url("font/roboto-regular.woff2") format("woff2"),
+    url("font/roboto-regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "robotomedium";
+  src: url("font/roboto-medium.woff2") format("woff2"),
+    url("font/roboto-medium.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "robotoitalic";
+  src: url("font/roboto-italic.woff2") format("woff2"),
+    url("font/roboto-italic.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "robotothin";
+  src: url("font/roboto-thin.woff2") format("woff2"),
+    url("font/roboto-thin.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+.row {
+  width: 100%;
+  display: flex;
+}
+.col-1 {
+  width: 8.33%;
+}
+.col-2 {
+  width: 16.66%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33%;
+}
+.col-5 {
+  width: 41.66%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.33%;
+}
+.col-8 {
+  width: 66.66%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33%;
+}
+.col-11 {
+  width: 91.66%;
+}
+.col-12 {
+  width: 100%;
+}
+
+.principal {
+  width: 1440px;
+  height: 1018px;
+  margin: auto;
+}
+.texto_de_titulo {
+  font-family: "robotoregular";
+  font-size: 54px;
+  font-style: normal;
+  line-height: 68px;
+  font-weight: 700;
+  color: #42505c;
+  display: block;
+}
+.texto_de_paragrafo {
+  font-family: "robotoregular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.25px;
+  color: #404040;
+  opacity: 0.99;
+  display: flex;
+}
+.text_de_paggs {
+  font-family: "robotoregular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  margin-top: 20px;
+  margin-left: 125px;
+  letter-spacing: 0.25px;
+  color: #333333;
+  display: block;
+}
+span a {
+  text-decoration: none;
+  color: #4743e0;
+}
+#login {
+  margin-left: 125px;
+  margin-top: 80px;
+}
+#txtlogin {
+  margin-top: 10px;
+  margin-left: 128px;
+  display: block;
+  width: 300px;
+  text-align: inherit;
+}
+#txt_register {
+  margin-top: 90px;
+  margin-left: 20px;
+  display: block;
+  width: 300px;
+  text-align: inherit;
+}
+#text_footer {
+  margin: 120px;
+  margin-top: 175px;
+  margin-left: 183px;
+  display: block;
+}
+#text_register {
+  margin-left: 22px;
+}
+#txt_paggs {
+  margin-top: 45px;
+  margin-left: 128px;
+  display: block;
+  width: 303px;
+  text-align: inherit;
+}
+#imagem_forgot {
+  margin-left: 170px;
+}
+#button_login {
+  width: 300px;
+  height: 53px;
+  margin: 0px;
+  margin-left: 126px;
+  margin-top: 50px;
+}
+#success_register_1 {
+  margin-top: 588px;
+}
+#success_register_2 {
+  margin-top: 600px;
+}
+#sucess_register_titulo {
+  margin: 80px 50px 50px 135px;
+}
+#sucess_register-paragrafo {
+  margin-top: 70px;
+}
+#register_member {
+  margin-left: 681px;
+  margin-top: 85px;
+}
+#button_register {
+  width: 150px;
+  height: 60px;
+  margin-left: 85px;
+  margin-top: 30px;
+}
+.fa-solid {
+  margin-left: 100px;
+}
+hr {
+  width: 299px;
+  height: 0px;
+  opacity: 0.2;
+  border: 1px dashed #000000;
+  margin-left: 125px;
+  margin-top: 40px;
+}
+input[type="text"] {
+  width: 300px;
+  height: 50px;
+  margin-top: 5px;
+  margin-left: 124px;
+  padding: 20px;
+  background: #ffffff;
+  border: 1px solid #d1d1d1;
+  display: block;
+}
+input[type="password"] {
+  width: 300px;
+  height: 55px;
+  margin-top: 5px;
+  margin-left: 124px;
+  padding: 20px;
+  background: #ffffff;
+  border: 1px solid #d1d1d1;
+  display: block;
+}
+input[type="email"] {
+  width: 300px;
+  height: 50px;
+  margin-top: 5px;
+  margin-left: 124px;
+  padding: 20px;
+  background: #ffffff;
+  border: 1px solid #d1d1d1;
+  display: block;
+}
+.linha_register {
+  width: 680px;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 87px;
+  margin-top: 40px;
+  margin-left: 150px;
+}
+.buttons .terms {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.buttons .terms input {
+  width: 28px;
+  height: 28px;
+  margin: -24px;
+  accent-color: #4743e0;
+  margin-right: -7px;
+}
+.buttons .terms label {
+  font-family: "robotoregular";
+  font-size: 14px;
+  letter-spacing: 0.25px;
+  width: 180px;
+  font-weight: 700;
+  line-height: 28px;
+  font-weight: 400;
+  color: #333333;
+}
+.account_button button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 114px;
+  height: 47px;
+  background: #4743e0;
+  font-family: "robotoregular";
+  border: none;
+  margin-left: 110px;
+  margin: 75px;
+  margin-top: 35px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.25px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.container-loader {
+  margin-top: 17px;
+  margin-bottom: 22px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 51px;
+  height: 51px;
+  border: 1px solid #d1d1d1;
+  border-radius: 100%;
+  position: relative;
+  cursor: pointer;
+  margin-left: -25px;
+}
+.loader::before {
+  content: "";
+  position: absolute;
+  transform: rotate(50deg);
+  inset: -1px;
+  border: 2px solid #4743e0;
+  border-radius: 50%;
+  border-right: 10px solid transparent;
+  animation: loader 2s linear infinite;
+}
+@keyframes loader {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@media screen and (max-widht: 768px) {
+  .principal {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+#cron {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  margin-left: 2px;
+  letter-spacing: 0.25px;
+  color: #4743e0;
+}
+strong {
+  font-family: "robotoregular";
+  letter-spacing: 0.3px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+  margin-left: 90px;
+  cursor: pointer;
+}
+button {
+  width: 110px;
+  height: 50px;
+  padding: 10px;
+  font-size: 1rem;
+  margin-top: 45px;
+  margin-left: 170px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background: #4743e0;
+  color: aliceblue;
+  border: 1px solid #f5f5f5;
+  outline: none;
+}
+button a {
+  text-decoration: none;
+  color: white;
+}
+button a:hover {
+  color: black;
+  transition: 1s;
+}
+.input-wrapper input {
+  outline: none;
+  width: 500px;
+  height: 50px;
+  padding-left: 15px;
+  border: 1px solid #d1d1d1;
+  background: #ffffff;
+}
+.radio input[type="radio"] {
+  display: none;
+  position: absolute;
+  opacity: 0;
+  height: 0;
+  width: 300px;
+}
+.input-wrapper-radio {
+  margin-left: 118px;
+  display: flex;
+  justify-content: space-between;
+  width: 90px;
+}
+.radio label {
+  display: flex;
+  margin: 4px;
+  width: 66.1px;
+  height: 48px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #d1d1d1;
+  border-radius: 5px;
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: 0.25px;
+}
+input[type="radio"]:checked + label {
+  border: 1px solid #4743e0;
+  box-shadow: 0px 0px 14px rgba(71, 67, 224, 0.2);
+  color: #4743e0;
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: 0.25px;
+}
+.input-phone {
+  height: 50px;
+  display: flex;
+  width: 340px;
+}
+.input-phone #ddi {
+  width: 80px;
+  outline: none;
+  border: 1px solid #d1d1d1;
+  padding-left: 17px;
+  margin-left: 22px;
+}
+
+.input-phone #ddi::-webkit-inner-spin-button {
+  display: none;
+}
+
+.input-phone #phone {
+  outline: none;
+  border: 1px solid #d1d1d1;
+  padding-left: 20px;
+  width: 220px;
+}
+footer {
+  display: block;
+  margin-top: 20px;
+}
+footer .terms input {
+  width: 100px;
+  height: 35px;
+  accent-color: #4743e0;
+  margin: 48px 126px;
+  margin-top: 15px;
+}
+#text_footer_register {
+  margin: 0px;
+  margin-top: -80px;
+  margin-left: 228px;
+  display: block;
+}
+.imagem img {
+  margin-top: 210px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}

@@ -1,0 +1,172 @@
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../style.css" />
+    <title>Register Account</title>
+  </head>
+  <body>
+    <div class="principal">
+      <div class="row">
+        <div class="col-8">
+          <form action="">
+          <div class="row">
+            <div class="col-12">
+              <span class="texto_de_paragrafo" id="register_member"
+                ><a href="">Allready a member?</a></span
+              >
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-6">
+              <span class="texto_de_titulo" id="login"
+                >Input your information</span
+              >
+              <hr class="linha_register" />
+            </div>
+            <div class="col-6">
+              <span class="texto_de_paragrafo" id="txt_register"
+                >We need you to help us with some basic information for your
+                account creation. Here are our <a href=""> terms and conditins.</a> Please read
+                them carefully. We are GDRP compliiant</span
+              >
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-6">
+              <span class="text_de_paggs"> First name</span>
+              <input
+                type="text"
+                name="first name"
+                placeholder="First name"
+                autocomplete="first-name"
+                required
+              />
+              <span class="text_de_paggs"> Company</span>
+              <input
+                type="text"
+                name="company"
+                placeholder="Company"
+                autocomplete=""
+                required
+              />
+              <div class="radio">
+                    <span class="text_de_paggs">Number of employees</span>
+                    <div class="input-wrapper-radio">
+                    <div>
+                        <input type="radio" id="employees-0-10" name="employees" value="0-10" checked>
+                        <label for="employees-0-10">
+                            <div class="radio-btn">0 < 20</div>
+                        </label>
+                    </div>
+                    <div>
+                        <input type="radio" id="employees-20-50" name="employees" value="20-50">
+                        <label for="employees-20-50">
+                            <div class="radio-btn">20 < 50</div>
+                        </label>
+                    </div>
+                    <div>
+                        <input type="radio" id="employees-50-100" name="employees" value="50-100">
+                        <label for="employees-50-100">
+                            <div class="radio-btn">50 < 100</div>
+                        </label>
+                    </div>
+                    <div>
+                        <input type="radio" id="employees-100" name="employees" value="100">
+                        <label for="employees-100">
+                            <div class="radio-btn">100 < ...</div>
+                        </label>
+                    </div>
+                </div>
+                <hr class="linha_register">
+            </div>
+            </div>
+            <div class="col-6">
+              <span class="text_de_paggs" id="text_register">Last name</span>
+              <input
+                type="text"
+                id="text_register"
+                name="lastname"
+                placeholder="Last name"
+                autocomplete=""
+                required
+              />
+              <span class="text_de_paggs" id="text_register">Work email</span>
+              <input
+                type="email"
+                id="text_register"
+                name="email"
+                placeholder="Your email"
+                autocomplate="email"
+                required
+              />
+              <div class="radio">
+                 <span class="text_de_paggs" id="text_register">Your number</span>
+                <div class="input-phone">
+                  <input
+                    type="number"
+                    list="list-ddi"
+                    name="ddi"
+                    placeholder="+000"
+                    id="ddi"
+                  />
+                  <input
+                    type="tel"
+                    name="phone"
+                    placeholder="00 000 000"
+                    id="phone"
+                  />
+                </div>
+                <datalist id="list-ddi">
+                  <option value="55">Brasil</option>
+                  <option value="225"></option>
+                  <option value="506"></option>
+                  <option value="385"></option>
+                </datalist>
+              </div>
+             </div>
+          </div>
+          <div class="row">
+            <div class="col-6">
+              <span class="text_de_paggs">Password</span>
+              <input type="password" name="senha" id="senha" placeholder="Password" autocomplete="confirm_password" required>
+              <hr class="linha_register">
+            </div>
+            <div class="col-6">
+              <span class="text_de_paggs" id="text_register">Confirm password</span>
+              <input type="password" name="senha" id="text_register" placeholder="Confirm your password" required>
+            </div>
+          </div>
+            <div class="row">
+            <div class="col-6">
+              <footer>
+              <div class="terms">
+                <input type="checkbox" name="terms" id="terms"required />
+                <span class="texto_de_paragrafo" id="text_footer_register"> I agree with
+                  <a href="#"> terms and conditions.</a></span>
+            </div>
+            </div>
+            <div class="col-6">
+              <div class="account_button">
+                <button type="submit" id="button_register">Register</button>
+              </form>
+               </footer>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="row">
+            <div class="col-12">
+              <div class="imagem">
+                <img src="../img/register.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
